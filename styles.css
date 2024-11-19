@@ -1,166 +1,189 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset default styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Background */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
     line-height: 1.6;
 }
+
+/* Header */
 header {
-    background: #007BFF;
-    color: #fff;
+    background-color: #0a3d62;
+    color: white;
+    padding: 20px;
     text-align: center;
-    padding: 1em 0;
 }
-.cta-button {
-    display: inline-block;
-    margin: 1em 0;
-    padding: 10px 20px;
-    background: #FFC107;
-    color: #000;
+
+header .logo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header .logo p {
+    font-size: 1.2rem;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(45deg, #0a3d62, #1c6b8f);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 1.2rem;
 }
-.cta-button:hover {
-    background: #FF5722;
-    color: #fff;
+
+.hero .btn:hover {
+    background-color: #e65c00;
 }
-#layanan {
-    padding: 2em;
-    background: #f4f4f4;
-}
-.card {
-    margin: 1em 0;
-    padding: 1em;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-footer {
+
+/* Services Section */
+.services {
     text-align: center;
-    padding: 1em;
-    background: #222;
-    color: #fff;
-}
-#testimoni {
-    padding: 2em;
-    background: #f9f9f9;
-    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
 }
 
-.testimoni {
-    margin: 1em 0;
-    padding: 1em;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+.services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
 }
 
-.testimoni strong {
-    display: block;
-    margin-top: 0.5em;
-    color: #333;
-}
-iframe {
-    max-width: 100%;
-    border: none;
-}
-#promosi {
-    text-align: center;
-    padding: 2em;
-    background: #f0f8ff;
-    color: #333;
-}
-
-#promosi h2 {
-    font-size: 1.8em;
-    margin-bottom: 1em;
-    color: #007BFF;
-}
-
-#promosi p {
-    font-size: 1em;
-    line-height: 1.5;
-    margin-bottom: 1.5em;
-}
-
-.promosi-links {
+.service-cards {
     display: flex;
     justify-content: center;
-    gap: 1em;
+    gap: 30px;
 }
 
-.cta-button, .youtube-button {
-    display: inline-block;
-    padding: 0.8em 1.5em;
-    font-size: 1em;
-    color: #fff;
-    background: #007BFF;
-    border: none;
-    border-radius: 5px;
+.service-cards .card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.service-cards .card h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.service-cards .card p {
+    font-size: 1rem;
+}
+
+/* Signup Section */
+.signup {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+}
+
+.signup h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.signup p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.signup .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
     text-decoration: none;
-    transition: background 0.3s;
+    border-radius: 5px;
 }
 
-.youtube-button {
-    background: #FF0000;
-    display: flex;
-    align-items: center;
-    gap: 0.5em;
+.signup .btn:hover {
+    background-color: #e65c00;
 }
 
-.cta-button:hover {
-    background: #0056b3;
-}
-
-.youtube-button:hover {
-    background: #cc0000;
-}
-#tentang-kami {
-    padding: 2em;
-    background: #fff;
-    color: #333;
+/* YouTube Section */
+.youtube {
     text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
 }
 
-#tentang-kami h2 {
-    font-size: 1.8em;
-    color: #007BFF;
-    margin-bottom: 1em;
+.youtube h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
-#tentang-kami p {
-    font-size: 1em;
-    line-height: 1.6;
-    margin-bottom: 1em;
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+.youtube p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
 }
 
-h1 {
-    color: #333;
+.youtube .btn {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.youtube .btn:hover {
+    background-color: #e65c00;
+}
+
+/* Footer */
+footer {
+    background-color: #0a3d62;
+    color: white;
     text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
 
-#social-media {
-    text-align: center;
-    margin: 2em 0;
-}
-
-#social-media h2 {
-    font-size: 1.5em;
-    color: #007BFF;
-}
-
-#social-media a {
-    margin: 0 10px;
-    display: inline-block;
-}
-
-#social-media img {
-    width: 40px;
-    height: 40px;
+footer p {
+    font-size: 1rem;
 }
