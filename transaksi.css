@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #fff;
+}
+
+#transaction-history h2 {
+    color: #333;
+}
+
+#transactions {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.transaction {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.9em;
+}
+
+.transaction:last-child {
+    border-bottom: none;
+}
+
+.transaction-type {
+    font-weight: bold;
+}
+
+.transaction-time {
+    font-size: 0.8em;
+    color: #555;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button-link:hover {
+    background: #0056b3;
+}

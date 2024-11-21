@@ -187,3 +187,169 @@ footer {
 footer p {
     font-size: 1rem;
 }
+/* Reset CSS */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Saldo Container */
+.saldo-container {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(145deg, #f0f0f3, #e2e2e5);
+    border-radius: 15px;
+    box-shadow: 20px 20px 60px #c6c6c8, -20px -20px 60px #ffffff;
+    margin: 50px auto;
+    width: 90%;
+    max-width: 600px;
+}
+
+.saldo-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.saldo-container .saldo-amount {
+    font-size: 4rem;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.saldo-container p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.dev-info {
+    margin-top: 20px;
+    font-style: italic;
+    color: #777;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #343a40;
+    color: #fff;
+    font-size: 0.9rem;
+}
+/* Reset */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tampilan Umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .subtitle {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2, h3 {
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45A049;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-left: 4px solid #4CAF50;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+/* Styling Navigasi */
+.navbar {
+  background-color: #1e1e2f;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 3px solid #4caf50;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li {
+  margin: 0;
+}
+
+.btn-link {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  background-color: transparent;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  transition: 0.3s ease;
+}
+
+

@@ -1,29 +1,28 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saldo Digital - Tendihub</title>
-    <link rel="stylesheet" href="css/saldo-digital.css">
+    <title>Saldo Digital Tendihub</title>
+    <link rel="stylesheet" href="saldo.css">
 </head>
 <body>
-<header>
-            <h1>Fitur Saldo Digital Berbasis Blockchain (Tahap Pengembangan)</h1>
-            <p>Fitur ini akan segera hadir di Tendihub untuk memudahkan transaksi dan pengelolaan saldo secara digital yang aman, transparan, dan efisien menggunakan teknologi blockchain.</p>
-        
-        <section class="info">
-            <h2>Keuntungan Blockchain</h2>
-            <ul>
-                <li>Keamanan tinggi dengan enkripsi yang kuat.</li>
-                <li>Transparansi penuh dalam setiap transaksi yang dilakukan.</li>
-                <li>Desentralisasi tanpa perantara, meminimalisir biaya transaksi.</li>
-                <li>Transaksi lebih cepat dan efisien.</li>
-            </ul>
-        </section>
-
+    <header>
+        <h1>Saldo Digital Tendihub</h1>
     </header>
-    <section class="info">
-        <p>Tendihub adalah platform pertama yang mengembangkan saldo digital berbasis blockchain di Indonesia.</p>
-    </section>
+    <main>
+        <div id="wallet-info">
+    <p>Alamat Wallet: <span id="wallet-address"></span></p>
+    <p>Saldo Anda: <span id="balance"></span></p>
+</div>
+        <div id="actions">
+            <button onclick="topUp()">Top-Up</button>
+            <button onclick="transfer()">Transfer</button>
+        </div>
+    </main>
+    <footer>
+        <a href="transaksi.html">Lihat Transaksi</a>
+    </footer>
+    <script src="saldo.js"></script>
 </body>
 </html>
