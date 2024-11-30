@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TendiHub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="banner">
+            <h1>TendiHub</h1>
+            <p>Solusi Digital untuk UMKM dan Freelance</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="services">
+            <h2>sosial media kami</h2>
+            <div class="card-container">
+                <!-- Card 1 -->
+                <div class="card">
+                    <h3>pembuatan website</h3>
+                    <p>Kami menyediakan layanan pembuatan website profesional untuk UMKM Anda.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="card">
+                    <h3>promosi produk umkm</h3>
+                    <p>Gabung dengan kami untuk menemukan klien atau freelancer terbaik.</p>
+                    <a href="https://forms.google.com" target="_blank" class="btn">Isi Formulir</a>
+                </div>
+                <!-- Card 3 -->
+                <div class="card">
+                    <h3>Gabung Sekarang</h3>
+                    <p>Buat akun dan mulai perjalanan Anda bersama TendiHub.</p>
+                    <a href="login.html" class="btn">Daftar Sekarang</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TendiHub. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>

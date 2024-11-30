@@ -1,0 +1,172 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Header */
+.header {
+  background-color: #fdfdfd;
+  color: #004aad;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #ffd700; /* Aksen emas */
+}
+
+.header .main-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.header .sub-title {
+  font-size: 1.2rem;
+  margin: 5px 0 0;
+}
+
+/* Navigation */
+.navigation {
+  background-color: #004aad;
+  color: white;
+  padding: 10px 0;
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navigation li {
+  margin: 0 15px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navigation a:hover {
+  color: #ffd700;
+}
+
+/* Sections */
+section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #004aad;
+  margin-bottom: 20px;
+}
+
+/* About Section */
+.about-section p {
+  font-size: 1.1rem;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* Services Section */
+.services-section {
+  background-color: #fdfdfd;
+  padding: 50px 20px;
+  border-top: 3px solid #ffd700;
+}
+
+.services-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.service-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-icon {
+  font-size: 2rem;
+  color: #ffd700; /* Aksen emas */
+  margin-bottom: 10px;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  color: #004aad;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Exclusive Section */
+.exclusive-section {
+  background-color: #fff;
+  border-top: 3px solid #004aad;
+  text-align: center;
+}
+
+.exclusive-section p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+}
+
+form input[type="password"] {
+  padding: 10px;
+  font-size: 1rem;
+  margin-right: 10px;
+  width: calc(100% - 120px);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #004aad;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #ffd700;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background-color: #004aad;
+  color: white;
+  padding: 15px 0;
+}
