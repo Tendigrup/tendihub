@@ -1,19 +1,26 @@
-// Password yang valid
-const validPassword = "akses123"; // Ganti dengan password yang Anda tentukan
-const form = document.getElementById('access-form');
-const passwordInput = document.getElementById('password');
-const errorMessage = document.getElementById('error-message');
+// Function untuk menampilkan jam sesuai waktu lokal
+function updateClock() {
+    const timeElement = document.getElementById('time');
+    const now = new Date();
+    
+    // Format jam, menit, dan detik
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
+    let seconds = now.getSeconds();
 
-form.addEventListener('submit', function (event) {
-  event.preventDefault(); // Mencegah form melakukan submit default
-  const enteredPassword = passwordInput.value;
+    // Format waktu untuk dua digit
+    hours = hours < 10 ? '0' + hours : hours;
+    minutes = minutes < 10 ? '0' + minutes : minutes;
+    seconds = seconds < 10 ? '0' + seconds : seconds;
 
-  // Validasi password
-  if (enteredPassword === validPassword) {
-    window.location.href = "exclusive.html"; // Arahkan ke halaman eksklusif
-  } else {
-    errorMessage.style.display = "block"; // Tampilkan pesan kesalahan
-  }
-});
+    const timeString = `${hours}:${minutes}:${seconds}`;
 
+    // Tampilkan waktu pada elemen #time
+    timeElement.textContent = timeString;
+}
 
+// Update jam setiap detik
+setInterval(updateClock, 1000);
+
+// Inisialisasi jam saat pertama kali halaman dimuat
+updateClock();
